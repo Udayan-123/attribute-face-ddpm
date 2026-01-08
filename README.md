@@ -112,7 +112,7 @@ Sampling configuration (CFG scale, number of steps, checkpoint paths) is defined
 ## Training
 To start or resume training:
 ```bash
-python train.py
+python train_diffusion.py
 ```
 All hyperparameters and paths are defined directly in the training script.
 
