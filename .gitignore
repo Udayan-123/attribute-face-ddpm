@@ -1,0 +1,85 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+
+# ===============================
+# PyTorch / ML
+# ===============================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# EMA / checkpoints / temp
+output/
+outputs/
+checkpoints/
+runs/
+logs/
+wandb/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# ===============================
+# Datasets
+# ===============================
+dataset/
+datasets/
+celeba/
+*.npz
+*.npy
+
+# Images & samples (generated)
+*.png
+*.jpg
+*.jpeg
+samples/
+sample_*/
+results/
+generated/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.code-workspace
+
+# ===============================
+# Jupyter / Colab
+# ===============================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===============================
+# CUDA / build artifacts
+# ===============================
+*.cu
+*.o
+*.out
+build/
+
+# ===============================
+# Misc
+# ===============================
+cache/
+tmp/
